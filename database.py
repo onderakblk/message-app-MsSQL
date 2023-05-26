@@ -1,10 +1,10 @@
 import pyodbc
 
 def create():
-    server = 'DESKTOP-NTCB8R5\MSSQLSERVERR'
+    server = 'yourserver'
     database = 'master'
-    username = 'sa'
-    password = '351880Oo.'
+    username = 'youruser'
+    password = 'yourpassword.'
 
     connection_string = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
@@ -18,10 +18,10 @@ def create():
 
 
 def tables():
-    server = 'DESKTOP-NTCB8R5\MSSQLSERVERR'
+    server = 'yourserver'
     database= 'message'
-    username = 'sa'
-    password = '351880Oo.'
+    username = 'youruser'
+    password = 'yourpassword.'
 
     connection_string = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 

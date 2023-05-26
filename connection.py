@@ -1,10 +1,10 @@
 import pyodbc
 
 
-server = 'DESKTOP-NTCB8R5\MSSQLSERVERR'
+server = 'yourserver'
 database = 'message'
-username = 'sa'
-password = '351880Oo.'
+username = 'yourusername'
+password = 'yourpassword'
 
 connection_string = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
